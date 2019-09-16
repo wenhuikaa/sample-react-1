@@ -1,0 +1,13 @@
+{
+    "presets": [
+        "env"
+    ],
+    "plugins": [
+        [
+            "transform-jsx",
+            {
+                "function": "React.createElement"
+            }
+        ]
+    ]
+}
